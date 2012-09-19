@@ -7,11 +7,13 @@ Creates a CSS3-based loader element that performs better than loader.gif alterna
 
 ## Usage
 
-Use with less.js in your HTML (see index.html) or use the less compiler to compile into css server-side.
+Use with less.js in your HTML (see index.html) or use a less compiler to compile into css server-side.
 
 ## Settings
 
-In settings.less you can define several variables for color, size and amount of spikes.
-Make sure the number of <li>-elements in your HTML matches the @loaderSpikes that you set in settings.less.
+Use settings.less to define variables for color, size and amount of spikes.
+Make sure the number of <li>-elements in HTML matches @loaderSpikes as defined in settings.less!
+
+Any number between 6 and 20 is adviced.
 
 Feel free to contribute!
