@@ -7,7 +7,7 @@ Creates a CSS3-based loader element that performs better than loader.gif alterna
 
 ## Usage
 
-Use with less.js in your HTML (see index.html) or use a less compiler to compile into css server-side.
+Use with less.js in HEAD (see index.html) or use a less compiler to compile into css server-side.
 
 ## Settings
 
