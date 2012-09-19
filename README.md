@@ -12,7 +12,7 @@ Use with less.js in your HTML (see index.html) or use a less compiler to compile
 ## Settings
 
 Use settings.less to define variables for color, size and amount of spikes.
-Make sure the number of <li>-elements in HTML matches @loaderSpikes as defined in settings.less!
+Make sure the number of LI-elements in HTML matches @loaderSpikes as defined in settings.less!
 
 Any number between 6 and 20 is adviced.
 
