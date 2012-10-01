@@ -23,8 +23,8 @@
 
 .loader-spike(@pos: 0) {
   @deg: 360 / @loaderSpikes * @pos;
-  @delay: 0.3 + @pos / 10;
-  @duration: @loaderSpikes * 0.1;
+  @delay: @pos / @loaderSpikes * @loaderSpeed;
+  @duration: @loaderSpeed;
   @rotate: rotate(~"@{deg}deg");
   .transform(@rotate);
   .animation-delay(~"@{delay}s");
